@@ -7,17 +7,18 @@ public class Main {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        System.out.println(min(a,b,c));
-
+        System.out.println(king(a,b,c));
     }
 
-    public static int min(int a, int b, int c){
-        int king = a;
-        if (king > b){
-            king = b;
-        } else if(king > c){
-            king = c;
+    public static int king(int a, int b, int c){
+
+        int kking = a;
+        if(kking> b){
+            kking = b;
         }
-        return king;
+         if(kking >c){
+            kking =c;
+        }
+        return kking;
     }
 }
