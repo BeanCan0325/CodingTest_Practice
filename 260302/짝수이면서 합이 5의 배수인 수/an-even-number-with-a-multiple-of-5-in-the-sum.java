@@ -5,7 +5,7 @@ public class Main {
         int n = sc.nextInt();
         // Please write your code here.
         int b = adds(n);
-        if(b%5 ==0 && b%2==0){
+        if(b%5 ==0 && n%2==0){
             System.out.println("Yes");
         }else{
             System.out.println("No");
