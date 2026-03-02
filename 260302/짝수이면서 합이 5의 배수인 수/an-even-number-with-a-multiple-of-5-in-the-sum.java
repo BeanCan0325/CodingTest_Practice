@@ -17,7 +17,7 @@ public class Main {
        int tens =a/10;
        int ones =a%10;
 
-       return tens+ones;
+       return (tens+ones);
     }
     
 }
