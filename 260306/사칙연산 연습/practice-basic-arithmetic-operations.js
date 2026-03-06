@@ -6,5 +6,5 @@ let c = a+b;
 let d = c/8;
 let e = c%8;
 
-console.log(d);
+console.log(parseInt(d));
 console.log(e);
