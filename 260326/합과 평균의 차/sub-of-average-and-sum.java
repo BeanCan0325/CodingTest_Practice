@@ -11,12 +11,12 @@ public class Main {
 
 
         int D = a+b+c;
-        int E = E/3;
+        int E = D/3;
         
         System.out.println(D);
         System.out.println(E);
 
-        System.out.printls(D-E);
+        System.out.println(D-E);
 
 
     }
